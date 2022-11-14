@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat nickolas</title>
+    <link rel="stylesheet" type="text/css" href="style/global.css"/>
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="script/base.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="lateral">
+        <div class="user">
+          <div class="image">
+            <img src="https://i.pinimg.com/564x/93/84/45/938445c98cac5cd8d717529fad64b5a1.jpg" />
+          </div>
+          <div class="texto">
+            <h1 class="myName"></h1>
+            <p>Sigma S.A.C futebol club</p>
+          </div>
+        </div>
+
+        <ul class="listaContatos"></ul>
+      </div>
+      <div class="aviso">
+        <div class="aviso_texto">
+          <h1>Para iniciar um chat, primeiro abra outro local host e adicione outra conta, depois só apertar no chat que aparecer</h1>
+          <h2>Não está perfeito mas é o melhor que consegui em algumas horas Ass: Nicolas :)</h2>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="usuario">
+          <div class="lineTop">
+            <i class="headset fa-solid fa-headset"></i>
+            <h1 class="conversaTitle">Suporte</h1>
+          </div>
+          <div class="lineBottom">
+            <h2>Cuidado com as palavras!</h2>
+          </div>
+        </div>
+        <ul class="conversa">
+          <li>
+            <div class="header">
+              <img src="https://i.pinimg.com/564x/93/84/45/938445c98cac5cd8d717529fad64b5a1.jpg"/>
+              <div class="info">
+                <span class="nome">Nickolas</span>
+                <span class="data">Hoje às 13:40</span>
+              </div>
+            </div>
+            <div class="mensagem">
+              <p>msg dos sigmas</p>
+              <p>msg dos sigmas v2</p>
+            </div>
+          </li>
+          <li class="me">
+            <div class="header">
+              <img src="https://i.pinimg.com/564x/93/84/45/938445c98cac5cd8d717529fad64b5a1.jpg"/>
+              <div class="info">
+                <span class="nome">Nicolas</span>
+                <span class="data">Hoje às 13:41</span>
+              </div>
+            </div>
+            <div class="mensagem">
+              <p>msg dos sigmas</p>
+              <p>msg dos sigmas v2</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="enviar">
+          <div class="area">
+            <textarea idTo="0"  placeholder="Qual seu problema?..."></textarea>
+            <button>
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
